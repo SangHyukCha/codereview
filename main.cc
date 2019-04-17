@@ -7,9 +7,9 @@ int main(int argc, char* argv[]) {
   Goods goods3;
   Shopping shoppingList;
 
-  goods1.SetGoodsInfo(2, 3000);
-  goods2.SetGoodsInfo(1, 5000);
-  goods3.SetGoodsInfo(3, 1000);
+  goods1.SetGoodsPrice(2, 3000);
+  goods2.SetGoodsPrice(1, 5000);
+  goods3.SetGoodsPrice(3, 1000);
 
   shoppingList.PushList(goods1);
   shoppingList.PushList(goods2);

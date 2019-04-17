@@ -28,11 +28,11 @@ TEST(shopping_list_test, shopping_object_test) {
   Goods goods_test_object5;
 
   // Make 5 Sample datas
-  goods_test_object1.SetGoodsInfo(3, 2500);
-  goods_test_object2.SetGoodsInfo(1, 10000);
-  goods_test_object3.SetGoodsInfo(5, 4500);
-  goods_test_object4.SetGoodsInfo(4, 49900);
-  goods_test_object5.SetGoodsInfo(2, 30000);
+  goods_test_object1.SetGoodsPrice(3, 2500);
+  goods_test_object2.SetGoodsPrice(1, 10000);
+  goods_test_object3.SetGoodsPrice(5, 4500);
+  goods_test_object4.SetGoodsPrice(4, 49900);
+  goods_test_object5.SetGoodsPrice(2, 30000);
 
   shopping_object.PushList(goods_test_object1);
   shopping_object.PushList(goods_test_object2);
